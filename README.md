@@ -1,4 +1,4 @@
-@'
+
 # G.709-Aware Optical Transport Monitoring Dashboard
 
 ## Overview
