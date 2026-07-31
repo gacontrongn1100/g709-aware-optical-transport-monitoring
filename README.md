@@ -14,13 +14,6 @@ This project analyzes public optical transport telemetry from the Alibaba Cloud 
 
 ITU-T G.709/OTN concepts are used as a technical interpretation framework. The project does **not** decode raw OPU/ODU/OTU overhead bytes and does not claim to extract real TIM, BDI, PLM, or TCM alarms.
 
-### Who is this for?
-
-- Network and transmission engineers exploring optical telemetry analytics
-- Data analysts learning how to build a reproducible monitoring pipeline
-- Students and researchers studying DWDM, OTN, Pre-FEC BER, or EDFA behavior
-- Recruiters and reviewers evaluating a practical Python network-engineering project
-
 ### Key capabilities
 
 - Validate the required public dataset files
@@ -190,18 +183,6 @@ The health model uses thresholds derived from the dataset's percentile distribut
 - [Phase 4 KPI report](docs/phase4_kpi_report.md)
 - [Phase 5 health-analysis report](docs/phase5_health_analysis_report.md)
 
-### Limitations and responsible use
-
-- The project uses public, historical telemetry; it is not connected to a live network.
-- Health statuses are data-driven analytical labels, not production NOC alarms.
-- Results are not based on vendor-specific engineering limits.
-- The dataset does not expose raw G.709 overhead bytes.
-- The project is intended for learning, portfolio demonstration, and workflow design—not direct production deployment without validation.
-
-### Technology stack
-
-Python, pandas, NumPy, Streamlit, Plotly, Matplotlib, scikit-learn, PyArrow, Jupyter, and tabulate.
-
 ---
 
 ## Tiếng Việt
@@ -211,13 +192,6 @@ Python, pandas, NumPy, Streamlit, Plotly, Matplotlib, scikit-learn, PyArrow, Jup
 Dự án phân tích dữ liệu giám sát truyền dẫn quang công khai từ Alibaba Cloud Transport System Dataset. Hệ thống xử lý Pre-FEC BER, công suất kênh quang từ OCM và telemetry EDFA, sau đó đánh giá sức khỏe theo cấp kênh, tần số và thiết bị thông qua dashboard Streamlit.
 
 Các khái niệm ITU-T G.709/OTN được sử dụng làm khung diễn giải kỹ thuật. Dự án **không** giải mã trực tiếp byte overhead OPU/ODU/OTU và không tuyên bố trích xuất các cảnh báo TIM, BDI, PLM hoặc TCM thực tế.
-
-### Dự án phù hợp với ai?
-
-- Kỹ sư truyền dẫn và kỹ sư mạng muốn tìm hiểu phân tích telemetry quang
-- Chuyên viên dữ liệu muốn xây dựng pipeline giám sát có thể tái lập
-- Sinh viên và nhà nghiên cứu về DWDM, OTN, Pre-FEC BER hoặc EDFA
-- Nhà tuyển dụng và người đánh giá dự án Python ứng dụng trong kỹ thuật mạng
 
 ### Khả năng chính
 
@@ -381,29 +355,6 @@ Mô hình sử dụng các ngưỡng được suy ra từ phân bố percentile 
 - [Báo cáo làm sạch Phase 3](docs/phase3_cleaning_report.md)
 - [Báo cáo KPI Phase 4](docs/phase4_kpi_report.md)
 - [Báo cáo phân tích sức khỏe Phase 5](docs/phase5_health_analysis_report.md)
-
-### Giới hạn và cách sử dụng phù hợp
-
-- Dự án dùng telemetry lịch sử công khai, không kết nối mạng đang vận hành.
-- Các trạng thái sức khỏe là nhãn phân tích dựa trên dữ liệu, không phải cảnh báo NOC thực tế.
-- Kết quả không dựa trên giới hạn kỹ thuật riêng của nhà cung cấp thiết bị.
-- Dataset không cung cấp byte overhead G.709 thô.
-- Dự án phục vụ học tập, trình bày năng lực và thiết kế quy trình; cần được kiểm chứng thêm trước khi áp dụng vào production.
-
-### Công nghệ sử dụng
-
-Python, pandas, NumPy, Streamlit, Plotly, Matplotlib, scikit-learn, PyArrow, Jupyter và tabulate.
-
----
-
-## License and data attribution / Giấy phép và ghi nhận dữ liệu
-
-This repository does not currently include a project license file. Review the upstream dataset repository and its terms before redistributing source data or using the project beyond evaluation and learning.
-
-Repository này hiện chưa có tệp giấy phép riêng. Hãy kiểm tra repository dataset nguồn và các điều khoản liên quan trước khi phân phối lại dữ liệu hoặc sử dụng dự án ngoài mục đích đánh giá và học tập.
-
-- Dataset source / Nguồn dataset: [Alibaba Cloud Transport System Dataset](https://github.com/alibaba/alibaba-cloud-transport-system)
-- Project repository / Repository dự án: [g709-aware-optical-transport-monitoring](https://github.com/gacontrongn1100/g709-aware-optical-transport-monitoring)
 
 ## Keywords
 
