@@ -172,17 +172,6 @@ The health model uses thresholds derived from the dataset's percentile distribut
 | EDFA gain tilt | Gain-profile imbalance indicator |
 | Attenuation | Optical section attenuation context |
 
-### Documentation
-
-- [Project scope](docs/project_scope.md)
-- [Data source](docs/data_source.md)
-- [Data dictionary](docs/data_dictionary.md)
-- [Known limitations](docs/limitations.md)
-- [Phase 2 findings](docs/phase2_findings.md)
-- [Phase 3 cleaning report](docs/phase3_cleaning_report.md)
-- [Phase 4 KPI report](docs/phase4_kpi_report.md)
-- [Phase 5 health-analysis report](docs/phase5_health_analysis_report.md)
-
 ---
 
 ## Tiếng Việt
@@ -344,18 +333,3 @@ Mô hình sử dụng các ngưỡng được suy ra từ phân bố percentile 
 | EDFA gain | Hoạt động khuếch đại |
 | EDFA gain tilt | Chỉ báo mất cân bằng phổ gain |
 | Attenuation | Ngữ cảnh suy hao đoạn quang |
-
-### Tài liệu
-
-- [Phạm vi dự án](docs/project_scope.md)
-- [Nguồn dữ liệu](docs/data_source.md)
-- [Từ điển dữ liệu](docs/data_dictionary.md)
-- [Các giới hạn đã biết](docs/limitations.md)
-- [Kết quả khảo sát Phase 2](docs/phase2_findings.md)
-- [Báo cáo làm sạch Phase 3](docs/phase3_cleaning_report.md)
-- [Báo cáo KPI Phase 4](docs/phase4_kpi_report.md)
-- [Báo cáo phân tích sức khỏe Phase 5](docs/phase5_health_analysis_report.md)
-
-## Keywords
-
-`G.709` · `OTN` · `DWDM` · `Pre-FEC BER` · `EDFA` · `OCM` · `Optical Transport Monitoring` · `Python` · `pandas` · `Streamlit` · `Plotly`
