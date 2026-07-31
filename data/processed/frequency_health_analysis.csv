@@ -1,0 +1,43 @@
+﻿center_frequency,ber_channel_count,ber_p95_mean,ber_p95_max,ber_risk_score_max,ber_critical_count,ber_warning_count,power_channel_count,power_mean,power_min,power_range_mean,power_risk_score_max,power_critical_count,power_warning_count,frequency_status,frequency_risk_score,recommended_check,priority,issue_category
+191400.0,,,,,0,0,72.0,4.464576645427518,-0.01,2.0495992494027777,100.0,6,20,Critical,100.0,"Check OCH power level, channel equalization, ROADM/EDFA behavior and physical optical path. BER may still be protected by FEC.",P1,Optical power critical only
+196100000.0,4.0,0.0033369999999999,0.004429,100.0,1,0,,,,,,0,0,Critical,100.0,"High priority. BER is critical but OCH power is not critical. Check transponder, modulation/FEC behavior, non-power optical impairments and side-specific degradation.",P1,BER critical only
+191800.0,,,,,0,0,40.0,5.408787845511078,-0.48,3.3841116168250003,99.93,3,19,Critical,99.93,"Check OCH power level, channel equalization, ROADM/EDFA behavior and physical optical path. BER may still be protected by FEC.",P1,Optical power critical only
+193100.0,,,,,0,0,76.0,3.724797227663055,-2.149999999,0.7326119958947368,99.93,3,3,Critical,99.93,"Check OCH power level, channel equalization, ROADM/EDFA behavior and physical optical path. BER may still be protected by FEC.",P1,Optical power critical only
+191600.0,,,,,0,0,40.0,5.12098330994889,-0.61,3.298427706025,99.85,4,18,Critical,99.85,"Check OCH power level, channel equalization, ROADM/EDFA behavior and physical optical path. BER may still be protected by FEC.",P1,Optical power critical only
+196100.0,,,,,0,0,72.0,1.9190916837430068,-1.309999999,0.6213888887995278,99.78,7,35,Critical,99.78,"Check OCH power level, channel equalization, ROADM/EDFA behavior and physical optical path. BER may still be protected by FEC.",P1,Optical power critical only
+191500.0,,,,,0,0,78.0,4.783641871890676,-0.24,1.725812903576923,99.7,1,19,Critical,99.7,"Check OCH power level, channel equalization, ROADM/EDFA behavior and physical optical path. BER may still be protected by FEC.",P1,Optical power critical only
+193500.0,,,,,0,0,76.0,2.948027170215289,-1.264331073,0.92066279875,99.7,4,20,Critical,99.7,"Check OCH power level, channel equalization, ROADM/EDFA behavior and physical optical path. BER may still be protected by FEC.",P1,Optical power critical only
+192200000.0,4.0,0.00252425,0.00287,86.0,0,0,,,,,,0,0,Normal,86.0,No immediate action. Continue regular monitoring.,P3,No abnormal behavior detected
+192500.0,,,,,0,0,76.0,4.36817462451886,2.101692872,0.3698069987763158,85.91,0,0,Normal,85.91,No immediate action. Continue regular monitoring.,P3,No abnormal behavior detected
+192100.0,,,,,0,0,4.0,3.976380813953488,2.9,1.025,85.01,0,0,Normal,85.01,No immediate action. Continue regular monitoring.,P3,No abnormal behavior detected
+192200.0,,,,,0,0,72.0,4.5366297524145365,2.231232437,0.3692385748888889,83.98,0,0,Normal,83.98,No immediate action. Continue regular monitoring.,P3,No abnormal behavior detected
+193200.0,,,,,0,0,72.0,4.191248803583418,2.31,0.3334167891111111,83.09,0,0,Normal,83.09,No immediate action. Continue regular monitoring.,P3,No abnormal behavior detected
+193000.0,,,,,0,0,72.0,4.2098699001900135,2.35,0.3410112425694444,82.23,0,0,Normal,82.23,No immediate action. Continue regular monitoring.,P3,No abnormal behavior detected
+192900.0,,,,,0,0,4.0,4.153270348837209,2.8,0.9,81.16,0,0,Normal,81.16,No immediate action. Continue regular monitoring.,P3,No abnormal behavior detected
+193500000.0,2.0,0.00225,0.00269,80.0,0,0,,,,,,0,0,Normal,80.0,No immediate action. Continue regular monitoring.,P3,No abnormal behavior detected
+193200000.0,4.0,0.00191075,0.002655,76.0,0,0,,,,,,0,0,Normal,76.0,No immediate action. Continue regular monitoring.,P3,No abnormal behavior detected
+192700.0,,,,,0,0,4.0,4.092441860465116,2.9,0.7749999999999999,75.41,0,0,Normal,75.41,No immediate action. Continue regular monitoring.,P3,No abnormal behavior detected
+192300000.0,2.0,0.0021395,0.00248,63.0,0,0,,,,,,0,0,Normal,63.0,No immediate action. Continue regular monitoring.,P3,No abnormal behavior detected
+192400000.0,2.0,0.002025,0.00248,63.0,0,0,,,,,,0,0,Normal,63.0,No immediate action. Continue regular monitoring.,P3,No abnormal behavior detected
+193300000.0,2.0,0.0019525,0.002315,58.0,0,0,,,,,,0,0,Normal,58.0,No immediate action. Continue regular monitoring.,P3,No abnormal behavior detected
+191800000.0,2.0,0.00110315,0.00214,52.0,0,0,,,,,,0,0,Normal,52.0,No immediate action. Continue regular monitoring.,P3,No abnormal behavior detected
+191600000.0,2.0,0.0010698,0.00206,50.0,0,0,,,,,,0,0,Normal,50.0,No immediate action. Continue regular monitoring.,P3,No abnormal behavior detected
+193800000.0,2.0,0.0019445,0.001979,45.0,0,0,,,,,,0,0,Normal,45.0,No immediate action. Continue regular monitoring.,P3,No abnormal behavior detected
+193100000.0,2.0,0.0015444999999999,0.001789,34.0,0,0,,,,,,0,0,Normal,34.0,No immediate action. Continue regular monitoring.,P3,No abnormal behavior detected
+191400000.0,2.0,0.0008189975,0.00157,27.0,0,0,,,,,,0,0,Normal,27.0,No immediate action. Continue regular monitoring.,P3,No abnormal behavior detected
+191700000.0,2.0,0.0005211,0.00101,18.0,0,0,,,,,,0,0,Normal,18.0,No immediate action. Continue regular monitoring.,P3,No abnormal behavior detected
+191500000.0,2.0,0.0004641999999999,0.0009002999999999,16.0,0,0,,,,,,0,0,Normal,16.0,No immediate action. Continue regular monitoring.,P3,No abnormal behavior detected
+191900000.0,2.0,0.0003196999999999,0.0006182999999999,14.0,0,0,,,,,,0,0,Normal,14.0,No immediate action. Continue regular monitoring.,P3,No abnormal behavior detected
+191900.0,,,,,0,0,36.0,4.9504904350027,-0.47,3.0997533564166666,98.96,0,22,Warning,98.96,Monitor optical channel power drift and EDFA gain/tilt. Check equalization if drift continues.,P2,Optical power warning only
+194400.0,,,,,0,0,72.0,3.317600397251619,-0.565844947,0.341877909625,98.81,0,8,Warning,98.81,Monitor optical channel power drift and EDFA gain/tilt. Check equalization if drift continues.,P2,Optical power warning only
+191700.0,,,,,0,0,36.0,5.094811429621931,-0.4,2.869739163888889,98.44,0,23,Warning,98.44,Monitor optical channel power drift and EDFA gain/tilt. Check equalization if drift continues.,P2,Optical power warning only
+193300.0,,,,,0,0,72.0,3.3199231137884286,-0.135920749,0.3750966979027778,98.0,0,8,Warning,98.0,Monitor optical channel power drift and EDFA gain/tilt. Check equalization if drift continues.,P2,Optical power warning only
+192000000.0,2.0,0.003308,0.004347,98.0,0,1,,,,,,0,0,Warning,98.0,Monitor Pre-FEC BER trend and compare A/Z side behavior. Check non-power optical impairments if trend worsens.,P2,BER warning only
+192600.0,,,,,0,0,78.0,3.646843175092015,0.262196214,0.4170950501282052,97.33,0,4,Warning,97.33,Monitor optical channel power drift and EDFA gain/tilt. Check equalization if drift continues.,P2,Optical power warning only
+193800.0,,,,,0,0,72.0,3.306702685365627,0.971424274,0.792225046125,96.22,0,13,Warning,96.22,Monitor optical channel power drift and EDFA gain/tilt. Check equalization if drift continues.,P2,Optical power warning only
+192400.0,,,,,0,0,76.0,4.075036345924889,1.01,0.6827313674078948,96.07,0,4,Warning,96.07,Monitor optical channel power drift and EDFA gain/tilt. Check equalization if drift continues.,P2,Optical power warning only
+194400000.0,4.0,0.00292775,0.004042,96.0,0,1,,,,,,0,0,Warning,96.0,Monitor Pre-FEC BER trend and compare A/Z side behavior. Check non-power optical impairments if trend worsens.,P2,BER warning only
+192000.0,,,,,0,0,76.0,3.809332326272033,1.041105746,0.5069936196973684,95.99,0,4,Warning,95.99,Monitor optical channel power drift and EDFA gain/tilt. Check equalization if drift continues.,P2,Optical power warning only
+192300.0,,,,,0,0,72.0,3.9010589895854633,1.24,0.7996051671527779,95.4,0,5,Warning,95.4,Monitor optical channel power drift and EDFA gain/tilt. Check equalization if drift continues.,P2,Optical power warning only
+193000000.0,4.0,0.002826,0.003725,94.0,0,1,,,,,,0,0,Warning,94.0,Monitor Pre-FEC BER trend and compare A/Z side behavior. Check non-power optical impairments if trend worsens.,P2,BER warning only
+192500000.0,4.0,0.002495,0.003518,92.0,0,1,,,,,,0,0,Warning,92.0,Monitor Pre-FEC BER trend and compare A/Z side behavior. Check non-power optical impairments if trend worsens.,P2,BER warning only

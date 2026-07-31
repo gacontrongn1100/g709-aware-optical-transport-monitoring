@@ -1,0 +1,54 @@
+﻿device_name,och_channel_count,power_risk_score_max,power_critical_count,power_warning_count,power_normal_count,power_device_status,edfa_count,edfa_risk_score_max,edfa_critical_count,edfa_warning_count,edfa_normal_count,edfa_device_status,device_status,device_risk_score,priority,recommended_check
+18,12,100.0,4,2,6,Critical,1,73.79,0,0,1,Normal,Critical,100.0,P1,"Critical OCH power behavior detected. Check OCH power level, channel equalization, patching, connector condition and optical path."
+25,30,90.21,0,2,28,Warning,2,100.0,1,1,0,Critical,Critical,100.0,P1,"Critical EDFA behavior detected. Check amplifier gain profile, gain tilt, VOA/attenuation and span condition."
+29,30,99.93,1,3,26,Critical,2,76.7,0,0,2,Normal,Critical,99.93,P1,"Critical OCH power behavior detected. Check OCH power level, channel equalization, patching, connector condition and optical path."
+33,30,99.85,1,3,26,Critical,2,76.7,0,0,2,Normal,Critical,99.85,P1,"Critical OCH power behavior detected. Check OCH power level, channel equalization, patching, connector condition and optical path."
+14,12,99.78,3,3,6,Critical,2,36.89,0,0,2,Normal,Critical,99.78,P1,"Critical OCH power behavior detected. Check OCH power level, channel equalization, patching, connector condition and optical path."
+43,30,99.78,1,4,25,Critical,2,96.12,0,1,1,Warning,Critical,99.78,P1,"Critical OCH power behavior detected. Check OCH power level, channel equalization, patching, connector condition and optical path."
+31,30,99.7,1,2,27,Critical,2,76.7,0,0,2,Normal,Critical,99.7,P1,"Critical OCH power behavior detected. Check OCH power level, channel equalization, patching, connector condition and optical path."
+15,12,99.63,2,4,6,Critical,2,71.84,0,0,2,Normal,Critical,99.63,P1,"Critical OCH power behavior detected. Check OCH power level, channel equalization, patching, connector condition and optical path."
+35,30,99.63,1,3,26,Critical,2,93.2,0,1,1,Warning,Critical,99.63,P1,"Critical OCH power behavior detected. Check OCH power level, channel equalization, patching, connector condition and optical path."
+16,12,99.55,2,4,6,Critical,2,97.09,0,2,0,Warning,Critical,99.55,P1,"Critical OCH power behavior detected. Check OCH power level, channel equalization, patching, connector condition and optical path."
+27,30,99.55,1,2,27,Critical,2,89.32,0,0,2,Normal,Critical,99.55,P1,"Critical OCH power behavior detected. Check OCH power level, channel equalization, patching, connector condition and optical path."
+17,12,99.48,2,4,6,Critical,2,81.55,0,0,2,Normal,Critical,99.48,P1,"Critical OCH power behavior detected. Check OCH power level, channel equalization, patching, connector condition and optical path."
+44,30,99.48,1,7,22,Critical,2,56.8,0,0,2,Normal,Critical,99.48,P1,"Critical OCH power behavior detected. Check OCH power level, channel equalization, patching, connector condition and optical path."
+41,30,99.41,1,1,28,Critical,2,90.29,0,1,1,Warning,Critical,99.41,P1,"Critical OCH power behavior detected. Check OCH power level, channel equalization, patching, connector condition and optical path."
+48,30,99.33,1,4,25,Critical,2,87.86,0,0,2,Normal,Critical,99.33,P1,"Critical OCH power behavior detected. Check OCH power level, channel equalization, patching, connector condition and optical path."
+37,30,99.26,1,8,21,Critical,2,93.69,0,1,1,Warning,Critical,99.26,P1,"Critical OCH power behavior detected. Check OCH power level, channel equalization, patching, connector condition and optical path."
+53,30,99.18,1,6,23,Critical,2,89.32,0,1,1,Warning,Critical,99.18,P1,"Critical OCH power behavior detected. Check OCH power level, channel equalization, patching, connector condition and optical path."
+13,24,99.11,1,11,12,Critical,2,41.75,0,0,2,Normal,Critical,99.11,P1,"Critical OCH power behavior detected. Check OCH power level, channel equalization, patching, connector condition and optical path."
+24,30,99.11,1,0,29,Critical,2,99.03,1,0,1,Critical,Critical,99.11,P1,"Critical OCH power and EDFA behavior detected. Prioritize checking amplifier gain/tilt, attenuation, optical channel power and physical optical path."
+42,30,99.04,1,1,28,Critical,2,98.06,0,1,1,Warning,Critical,99.04,P1,"Critical OCH power behavior detected. Check OCH power level, channel equalization, patching, connector condition and optical path."
+47,30,98.96,1,2,27,Critical,2,76.7,0,0,2,Normal,Critical,98.96,P1,"Critical OCH power behavior detected. Check OCH power level, channel equalization, patching, connector condition and optical path."
+19,60,91.47,0,2,58,Warning,2,98.06,1,1,0,Critical,Critical,98.06,P1,"Critical EDFA behavior detected. Check amplifier gain profile, gain tilt, VOA/attenuation and span condition."
+20,30,96.14,0,3,27,Warning,2,98.06,1,0,1,Critical,Critical,98.06,P1,"Critical EDFA behavior detected. Check amplifier gain profile, gain tilt, VOA/attenuation and span condition."
+21,30,89.61,0,0,30,Normal,2,98.06,1,0,1,Critical,Critical,98.06,P1,"Critical EDFA behavior detected. Check amplifier gain profile, gain tilt, VOA/attenuation and span condition."
+22,30,95.55,0,3,27,Warning,2,98.06,1,0,1,Critical,Critical,98.06,P1,"Critical EDFA behavior detected. Check amplifier gain profile, gain tilt, VOA/attenuation and span condition."
+23,30,95.25,0,2,28,Warning,2,98.06,1,0,1,Critical,Critical,98.06,P1,"Critical EDFA behavior detected. Check amplifier gain profile, gain tilt, VOA/attenuation and span condition."
+50,30,77.67,0,0,30,Normal,2,80.58,0,0,2,Normal,Normal,80.58,P3,Device-level optical telemetry is within the normal dataset distribution.
+40,34,78.71,0,0,34,Normal,2,68.93,0,0,2,Normal,Normal,78.71,P3,Device-level optical telemetry is within the normal dataset distribution.
+46,30,76.22,0,0,30,Normal,2,76.7,0,0,2,Normal,Normal,76.7,P3,Device-level optical telemetry is within the normal dataset distribution.
+10,24,98.89,0,18,6,Warning,2,33.98,0,0,2,Normal,Warning,98.89,P2,Warning-level optical behavior detected. Trend monitoring is recommended before service-impacting degradation.
+49,30,98.52,0,2,28,Warning,2,78.64,0,0,2,Normal,Warning,98.52,P2,Warning-level optical behavior detected. Trend monitoring is recommended before service-impacting degradation.
+51,30,98.37,0,6,24,Warning,2,89.32,0,1,1,Warning,Warning,98.37,P2,Warning-level optical behavior detected. Trend monitoring is recommended before service-impacting degradation.
+52,30,98.29,0,8,22,Warning,2,89.32,0,1,1,Warning,Warning,98.29,P2,Warning-level optical behavior detected. Trend monitoring is recommended before service-impacting degradation.
+45,30,98.07,0,2,28,Warning,2,83.5,0,0,2,Normal,Warning,98.07,P2,Warning-level optical behavior detected. Trend monitoring is recommended before service-impacting degradation.
+7,12,98.0,0,10,2,Warning,2,37.86,0,0,2,Normal,Warning,98.0,P2,Warning-level optical behavior detected. Trend monitoring is recommended before service-impacting degradation.
+34,30,97.92,0,3,27,Warning,2,93.69,0,1,1,Warning,Warning,97.92,P2,Warning-level optical behavior detected. Trend monitoring is recommended before service-impacting degradation.
+5,12,97.85,0,8,4,Warning,2,77.67,0,0,2,Normal,Warning,97.85,P2,Warning-level optical behavior detected. Trend monitoring is recommended before service-impacting degradation.
+12,12,97.77,0,6,6,Warning,2,16.5,0,0,2,Normal,Warning,97.77,P2,Warning-level optical behavior detected. Trend monitoring is recommended before service-impacting degradation.
+30,30,97.63,0,5,25,Warning,2,79.61,0,0,2,Normal,Warning,97.63,P2,Warning-level optical behavior detected. Trend monitoring is recommended before service-impacting degradation.
+26,30,97.55,0,4,26,Warning,2,84.47,0,0,2,Normal,Warning,97.55,P2,Warning-level optical behavior detected. Trend monitoring is recommended before service-impacting degradation.
+6,12,97.55,0,9,3,Warning,2,26.21,0,0,2,Normal,Warning,97.55,P2,Warning-level optical behavior detected. Trend monitoring is recommended before service-impacting degradation.
+2,24,97.48,0,3,21,Warning,2,40.78,0,0,2,Normal,Warning,97.48,P2,Warning-level optical behavior detected. Trend monitoring is recommended before service-impacting degradation.
+38,30,97.48,0,5,25,Warning,2,93.69,0,1,1,Warning,Warning,97.48,P2,Warning-level optical behavior detected. Trend monitoring is recommended before service-impacting degradation.
+28,30,97.4,0,3,27,Warning,2,89.32,0,1,1,Warning,Warning,97.4,P2,Warning-level optical behavior detected. Trend monitoring is recommended before service-impacting degradation.
+36,30,97.26,0,4,26,Warning,2,93.69,0,1,1,Warning,Warning,97.26,P2,Warning-level optical behavior detected. Trend monitoring is recommended before service-impacting degradation.
+4,12,97.11,0,8,4,Warning,2,16.5,0,0,2,Normal,Warning,97.11,P2,Warning-level optical behavior detected. Trend monitoring is recommended before service-impacting degradation.
+8,12,96.59,0,6,6,Warning,2,46.6,0,0,2,Normal,Warning,96.59,P2,Warning-level optical behavior detected. Trend monitoring is recommended before service-impacting degradation.
+32,30,96.51,0,3,27,Warning,2,76.7,0,0,2,Normal,Warning,96.51,P2,Warning-level optical behavior detected. Trend monitoring is recommended before service-impacting degradation.
+11,12,96.44,0,6,6,Warning,2,28.16,0,0,2,Normal,Warning,96.44,P2,Warning-level optical behavior detected. Trend monitoring is recommended before service-impacting degradation.
+9,12,96.14,0,7,5,Warning,2,24.27,0,0,2,Normal,Warning,96.14,P2,Warning-level optical behavior detected. Trend monitoring is recommended before service-impacting degradation.
+39,30,95.85,0,4,26,Warning,1,95.15,0,1,0,Warning,Warning,95.85,P2,Warning-level optical behavior detected. Trend monitoring is recommended before service-impacting degradation.
+1,24,95.7,0,3,21,Warning,2,40.78,0,0,2,Normal,Warning,95.7,P2,Warning-level optical behavior detected. Trend monitoring is recommended before service-impacting degradation.
+3,12,95.4,0,6,6,Warning,1,25.24,0,0,1,Normal,Warning,95.4,P2,Warning-level optical behavior detected. Trend monitoring is recommended before service-impacting degradation.

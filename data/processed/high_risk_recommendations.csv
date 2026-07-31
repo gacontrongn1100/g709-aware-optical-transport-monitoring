@@ -1,0 +1,90 @@
+﻿source,priority,status,risk_score,object_id,device_name,center_frequency,issue_category,recommended_check
+channel,P1,Critical,100.0,T11|/1/1/L2|23.0|4.0|196100000.0|A|ot2,T11,196100000.0,Critical BER correlated with frequency-level degradation,"P1. Check optical channel/frequency, OCH power behavior, EDFA section and transponder Pre-FEC BER trend."
+channel,P1,Critical,100.0,T11|/1/1/L1|12.0|3.0|196100000.0|Z|ot2,T11,196100000.0,Frequency-level critical condition affecting this channel,P1/P2. Frequency has critical power or BER behavior. Check whether this channel shares the affected frequency group.
+channel,P1,Critical,100.0,T6|/1/1/L2|12.0|3.0|196100000.0|A|ot2,T6,196100000.0,Frequency-level critical condition affecting this channel,P1/P2. Frequency has critical power or BER behavior. Check whether this channel shares the affected frequency group.
+channel,P1,Critical,100.0,T16|/1/3/L1|23.0|4.0|196100000.0|Z|ot2,T16,196100000.0,Frequency-level critical condition affecting this channel,P1/P2. Frequency has critical power or BER behavior. Check whether this channel shares the affected frequency group.
+frequency,P1,Critical,100.0,191400.0,,191400.0,Optical power critical only,"Check OCH power level, channel equalization, ROADM/EDFA behavior and physical optical path. BER may still be protected by FEC."
+frequency,P1,Critical,100.0,196100000.0,,196100000.0,BER critical only,"High priority. BER is critical but OCH power is not critical. Check transponder, modulation/FEC behavior, non-power optical impairments and side-specific degradation."
+device,P1,Critical,100.0,18,18,,"Device optical health: power=Critical, edfa=Normal","Critical OCH power behavior detected. Check OCH power level, channel equalization, patching, connector condition and optical path."
+device,P1,Critical,100.0,25,25,,"Device optical health: power=Warning, edfa=Critical","Critical EDFA behavior detected. Check amplifier gain profile, gain tilt, VOA/attenuation and span condition."
+frequency,P1,Critical,99.93,191800.0,,191800.0,Optical power critical only,"Check OCH power level, channel equalization, ROADM/EDFA behavior and physical optical path. BER may still be protected by FEC."
+frequency,P1,Critical,99.93,193100.0,,193100.0,Optical power critical only,"Check OCH power level, channel equalization, ROADM/EDFA behavior and physical optical path. BER may still be protected by FEC."
+device,P1,Critical,99.93,29,29,,"Device optical health: power=Critical, edfa=Normal","Critical OCH power behavior detected. Check OCH power level, channel equalization, patching, connector condition and optical path."
+frequency,P1,Critical,99.85,191600.0,,191600.0,Optical power critical only,"Check OCH power level, channel equalization, ROADM/EDFA behavior and physical optical path. BER may still be protected by FEC."
+device,P1,Critical,99.85,33,33,,"Device optical health: power=Critical, edfa=Normal","Critical OCH power behavior detected. Check OCH power level, channel equalization, patching, connector condition and optical path."
+frequency,P1,Critical,99.78,196100.0,,196100.0,Optical power critical only,"Check OCH power level, channel equalization, ROADM/EDFA behavior and physical optical path. BER may still be protected by FEC."
+device,P1,Critical,99.78,14,14,,"Device optical health: power=Critical, edfa=Normal","Critical OCH power behavior detected. Check OCH power level, channel equalization, patching, connector condition and optical path."
+device,P1,Critical,99.78,43,43,,"Device optical health: power=Critical, edfa=Warning","Critical OCH power behavior detected. Check OCH power level, channel equalization, patching, connector condition and optical path."
+frequency,P1,Critical,99.7,191500.0,,191500.0,Optical power critical only,"Check OCH power level, channel equalization, ROADM/EDFA behavior and physical optical path. BER may still be protected by FEC."
+frequency,P1,Critical,99.7,193500.0,,193500.0,Optical power critical only,"Check OCH power level, channel equalization, ROADM/EDFA behavior and physical optical path. BER may still be protected by FEC."
+device,P1,Critical,99.7,31,31,,"Device optical health: power=Critical, edfa=Normal","Critical OCH power behavior detected. Check OCH power level, channel equalization, patching, connector condition and optical path."
+device,P1,Critical,99.63,15,15,,"Device optical health: power=Critical, edfa=Normal","Critical OCH power behavior detected. Check OCH power level, channel equalization, patching, connector condition and optical path."
+device,P1,Critical,99.63,35,35,,"Device optical health: power=Critical, edfa=Warning","Critical OCH power behavior detected. Check OCH power level, channel equalization, patching, connector condition and optical path."
+device,P1,Critical,99.55,16,16,,"Device optical health: power=Critical, edfa=Warning","Critical OCH power behavior detected. Check OCH power level, channel equalization, patching, connector condition and optical path."
+device,P1,Critical,99.55,27,27,,"Device optical health: power=Critical, edfa=Normal","Critical OCH power behavior detected. Check OCH power level, channel equalization, patching, connector condition and optical path."
+device,P1,Critical,99.48,17,17,,"Device optical health: power=Critical, edfa=Normal","Critical OCH power behavior detected. Check OCH power level, channel equalization, patching, connector condition and optical path."
+device,P1,Critical,99.48,44,44,,"Device optical health: power=Critical, edfa=Normal","Critical OCH power behavior detected. Check OCH power level, channel equalization, patching, connector condition and optical path."
+device,P1,Critical,99.41,41,41,,"Device optical health: power=Critical, edfa=Warning","Critical OCH power behavior detected. Check OCH power level, channel equalization, patching, connector condition and optical path."
+device,P1,Critical,99.33,48,48,,"Device optical health: power=Critical, edfa=Normal","Critical OCH power behavior detected. Check OCH power level, channel equalization, patching, connector condition and optical path."
+device,P1,Critical,99.26,37,37,,"Device optical health: power=Critical, edfa=Warning","Critical OCH power behavior detected. Check OCH power level, channel equalization, patching, connector condition and optical path."
+device,P1,Critical,99.18,53,53,,"Device optical health: power=Critical, edfa=Warning","Critical OCH power behavior detected. Check OCH power level, channel equalization, patching, connector condition and optical path."
+device,P1,Critical,99.11,13,13,,"Device optical health: power=Critical, edfa=Normal","Critical OCH power behavior detected. Check OCH power level, channel equalization, patching, connector condition and optical path."
+device,P1,Critical,99.11,24,24,,"Device optical health: power=Critical, edfa=Critical","Critical OCH power and EDFA behavior detected. Prioritize checking amplifier gain/tilt, attenuation, optical channel power and physical optical path."
+device,P1,Critical,99.04,42,42,,"Device optical health: power=Critical, edfa=Warning","Critical OCH power behavior detected. Check OCH power level, channel equalization, patching, connector condition and optical path."
+device,P1,Critical,98.96,47,47,,"Device optical health: power=Critical, edfa=Normal","Critical OCH power behavior detected. Check OCH power level, channel equalization, patching, connector condition and optical path."
+device,P1,Critical,98.06,19,19,,"Device optical health: power=Warning, edfa=Critical","Critical EDFA behavior detected. Check amplifier gain profile, gain tilt, VOA/attenuation and span condition."
+device,P1,Critical,98.06,20,20,,"Device optical health: power=Warning, edfa=Critical","Critical EDFA behavior detected. Check amplifier gain profile, gain tilt, VOA/attenuation and span condition."
+device,P1,Critical,98.06,21,21,,"Device optical health: power=Normal, edfa=Critical","Critical EDFA behavior detected. Check amplifier gain profile, gain tilt, VOA/attenuation and span condition."
+device,P1,Critical,98.06,22,22,,"Device optical health: power=Warning, edfa=Critical","Critical EDFA behavior detected. Check amplifier gain profile, gain tilt, VOA/attenuation and span condition."
+device,P1,Critical,98.06,23,23,,"Device optical health: power=Warning, edfa=Critical","Critical EDFA behavior detected. Check amplifier gain profile, gain tilt, VOA/attenuation and span condition."
+frequency,P2,Warning,98.96,191900.0,,191900.0,Optical power warning only,Monitor optical channel power drift and EDFA gain/tilt. Check equalization if drift continues.
+device,P2,Warning,98.89,10,10,,"Device optical health: power=Warning, edfa=Normal",Warning-level optical behavior detected. Trend monitoring is recommended before service-impacting degradation.
+frequency,P2,Warning,98.81,194400.0,,194400.0,Optical power warning only,Monitor optical channel power drift and EDFA gain/tilt. Check equalization if drift continues.
+device,P2,Warning,98.52,49,49,,"Device optical health: power=Warning, edfa=Normal",Warning-level optical behavior detected. Trend monitoring is recommended before service-impacting degradation.
+frequency,P2,Warning,98.44,191700.0,,191700.0,Optical power warning only,Monitor optical channel power drift and EDFA gain/tilt. Check equalization if drift continues.
+device,P2,Warning,98.37,51,51,,"Device optical health: power=Warning, edfa=Warning",Warning-level optical behavior detected. Trend monitoring is recommended before service-impacting degradation.
+device,P2,Warning,98.29,52,52,,"Device optical health: power=Warning, edfa=Warning",Warning-level optical behavior detected. Trend monitoring is recommended before service-impacting degradation.
+device,P2,Warning,98.07,45,45,,"Device optical health: power=Warning, edfa=Normal",Warning-level optical behavior detected. Trend monitoring is recommended before service-impacting degradation.
+channel,P2,Warning,98.0,T8|/1/3/L2|17.0|3.0|192000000.0|A|ot2,T8,192000000.0,Normal channel with side-specific monitoring available,No immediate action. Continue monitoring.
+channel,P2,Warning,98.0,T13|/1/3/L1|17.0|3.0|192000000.0|Z|ot2,T13,192000000.0,BER warning correlated with frequency-level abnormality,P2. Monitor BER and frequency-level OCH power. Investigate early before Post-FEC/service impact.
+frequency,P2,Warning,98.0,193300.0,,193300.0,Optical power warning only,Monitor optical channel power drift and EDFA gain/tilt. Check equalization if drift continues.
+frequency,P2,Warning,98.0,192000000.0,,192000000.0,BER warning only,Monitor Pre-FEC BER trend and compare A/Z side behavior. Check non-power optical impairments if trend worsens.
+device,P2,Warning,98.0,7,7,,"Device optical health: power=Warning, edfa=Normal",Warning-level optical behavior detected. Trend monitoring is recommended before service-impacting degradation.
+device,P2,Warning,97.92,34,34,,"Device optical health: power=Warning, edfa=Warning",Warning-level optical behavior detected. Trend monitoring is recommended before service-impacting degradation.
+device,P2,Warning,97.85,5,5,,"Device optical health: power=Warning, edfa=Normal",Warning-level optical behavior detected. Trend monitoring is recommended before service-impacting degradation.
+device,P2,Warning,97.77,12,12,,"Device optical health: power=Warning, edfa=Normal",Warning-level optical behavior detected. Trend monitoring is recommended before service-impacting degradation.
+device,P2,Warning,97.63,30,30,,"Device optical health: power=Warning, edfa=Normal",Warning-level optical behavior detected. Trend monitoring is recommended before service-impacting degradation.
+device,P2,Warning,97.55,26,26,,"Device optical health: power=Warning, edfa=Normal",Warning-level optical behavior detected. Trend monitoring is recommended before service-impacting degradation.
+device,P2,Warning,97.55,6,6,,"Device optical health: power=Warning, edfa=Normal",Warning-level optical behavior detected. Trend monitoring is recommended before service-impacting degradation.
+device,P2,Warning,97.48,2,2,,"Device optical health: power=Warning, edfa=Normal",Warning-level optical behavior detected. Trend monitoring is recommended before service-impacting degradation.
+device,P2,Warning,97.48,38,38,,"Device optical health: power=Warning, edfa=Warning",Warning-level optical behavior detected. Trend monitoring is recommended before service-impacting degradation.
+device,P2,Warning,97.4,28,28,,"Device optical health: power=Warning, edfa=Warning",Warning-level optical behavior detected. Trend monitoring is recommended before service-impacting degradation.
+frequency,P2,Warning,97.33,192600.0,,192600.0,Optical power warning only,Monitor optical channel power drift and EDFA gain/tilt. Check equalization if drift continues.
+device,P2,Warning,97.26,36,36,,"Device optical health: power=Warning, edfa=Warning",Warning-level optical behavior detected. Trend monitoring is recommended before service-impacting degradation.
+device,P2,Warning,97.11,4,4,,"Device optical health: power=Warning, edfa=Normal",Warning-level optical behavior detected. Trend monitoring is recommended before service-impacting degradation.
+device,P2,Warning,96.59,8,8,,"Device optical health: power=Warning, edfa=Normal",Warning-level optical behavior detected. Trend monitoring is recommended before service-impacting degradation.
+device,P2,Warning,96.51,32,32,,"Device optical health: power=Warning, edfa=Normal",Warning-level optical behavior detected. Trend monitoring is recommended before service-impacting degradation.
+device,P2,Warning,96.44,11,11,,"Device optical health: power=Warning, edfa=Normal",Warning-level optical behavior detected. Trend monitoring is recommended before service-impacting degradation.
+frequency,P2,Warning,96.22,193800.0,,193800.0,Optical power warning only,Monitor optical channel power drift and EDFA gain/tilt. Check equalization if drift continues.
+device,P2,Warning,96.14,9,9,,"Device optical health: power=Warning, edfa=Normal",Warning-level optical behavior detected. Trend monitoring is recommended before service-impacting degradation.
+frequency,P2,Warning,96.07,192400.0,,192400.0,Optical power warning only,Monitor optical channel power drift and EDFA gain/tilt. Check equalization if drift continues.
+channel,P2,Warning,96.0,T16|/1/3/L2|20.0|4.0|194400000.0|Z|ot2,T16,194400000.0,Normal channel with side-specific monitoring available,No immediate action. Continue monitoring.
+channel,P2,Warning,96.0,T11|/1/3/L2|20.0|4.0|194400000.0|A|ot2,T11,194400000.0,Normal channel with side-specific monitoring available,No immediate action. Continue monitoring.
+channel,P2,Warning,96.0,T5|/1/4/L2|9.0|3.0|194400000.0|A|ot2,T5,194400000.0,Normal channel with side-specific monitoring available,No immediate action. Continue monitoring.
+channel,P2,Warning,96.0,T11|/1/3/L1|9.0|3.0|194400000.0|Z|ot2,T11,194400000.0,BER warning correlated with frequency-level abnormality,P2. Monitor BER and frequency-level OCH power. Investigate early before Post-FEC/service impact.
+frequency,P2,Warning,96.0,194400000.0,,194400000.0,BER warning only,Monitor Pre-FEC BER trend and compare A/Z side behavior. Check non-power optical impairments if trend worsens.
+frequency,P2,Warning,95.99,192000.0,,192000.0,Optical power warning only,Monitor optical channel power drift and EDFA gain/tilt. Check equalization if drift continues.
+device,P2,Warning,95.85,39,39,,"Device optical health: power=Warning, edfa=Warning",Warning-level optical behavior detected. Trend monitoring is recommended before service-impacting degradation.
+device,P2,Warning,95.7,1,1,,"Device optical health: power=Warning, edfa=Normal",Warning-level optical behavior detected. Trend monitoring is recommended before service-impacting degradation.
+frequency,P2,Warning,95.4,192300.0,,192300.0,Optical power warning only,Monitor optical channel power drift and EDFA gain/tilt. Check equalization if drift continues.
+device,P2,Warning,95.4,3,3,,"Device optical health: power=Warning, edfa=Normal",Warning-level optical behavior detected. Trend monitoring is recommended before service-impacting degradation.
+channel,P2,Warning,94.0,T16|/1/1/L1|25.0|4.0|193000000.0|Z|ot2,T16,193000000.0,Normal channel with side-specific monitoring available,No immediate action. Continue monitoring.
+channel,P2,Warning,94.0,T10|/1/1/L1|7.0|3.0|193000000.0|Z|ot2,T10,193000000.0,Normal channel with side-specific monitoring available,No immediate action. Continue monitoring.
+channel,P2,Warning,94.0,T5|/1/1/L2|7.0|3.0|193000000.0|A|ot2,T5,193000000.0,Normal channel with side-specific monitoring available,No immediate action. Continue monitoring.
+channel,P2,Warning,94.0,T10|/1/1/L2|25.0|4.0|193000000.0|A|ot2,T10,193000000.0,BER warning correlated with frequency-level abnormality,P2. Monitor BER and frequency-level OCH power. Investigate early before Post-FEC/service impact.
+frequency,P2,Warning,94.0,193000000.0,,193000000.0,BER warning only,Monitor Pre-FEC BER trend and compare A/Z side behavior. Check non-power optical impairments if trend worsens.
+channel,P2,Warning,92.0,T14|/1/1/L1|15.0|3.0|192500000.0|Z|ot2,T14,192500000.0,Normal channel with side-specific monitoring available,No immediate action. Continue monitoring.
+channel,P2,Warning,92.0,T14|/1/1/L2|24.0|4.0|192500000.0|A|ot2,T14,192500000.0,Normal channel with side-specific monitoring available,No immediate action. Continue monitoring.
+channel,P2,Warning,92.0,T9|/1/1/L1|15.0|3.0|192500000.0|A|ot2,T9,192500000.0,Normal channel with side-specific monitoring available,No immediate action. Continue monitoring.
+channel,P2,Warning,92.0,T17|/1/2/L1|24.0|4.0|192500000.0|Z|ot2,T17,192500000.0,BER warning correlated with frequency-level abnormality,P2. Monitor BER and frequency-level OCH power. Investigate early before Post-FEC/service impact.
+frequency,P2,Warning,92.0,192500000.0,,192500000.0,BER warning only,Monitor Pre-FEC BER trend and compare A/Z side behavior. Check non-power optical impairments if trend worsens.

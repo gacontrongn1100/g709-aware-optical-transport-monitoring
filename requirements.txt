@@ -2,7 +2,7 @@
 numpy
 matplotlib
 plotly
-streamlit
+streamlit==1.59.1
 scikit-learn
 jupyter
 pyarrow
