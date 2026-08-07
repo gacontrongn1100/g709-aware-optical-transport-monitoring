@@ -26,6 +26,7 @@ data/processed/
 # Temporary files
 tmp/
 temp/
+stitch_qu_n_tr_truy_n_d_n_viettel.zip
 
 # Streamlit
 .streamlit/secrets.toml

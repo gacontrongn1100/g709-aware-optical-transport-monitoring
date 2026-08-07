@@ -1,0 +1,8 @@
+.venv/
+data/raw/
+data/processed/*_clean.csv
+data/processed/sample_*.csv
+data/processed/frequency_health_summary.csv
+stitch_qu_n_tr_truy_n_d_n_viettel.zip
+__pycache__/
+*.pyc

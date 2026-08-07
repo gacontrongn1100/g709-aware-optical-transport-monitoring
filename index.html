@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="G.709-aware optical transport monitoring dashboard for channel, frequency, device, BER, OCH power, and EDFA health." />
+    <title>PTIT OTMS | Optical Transport Monitoring</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,300..600,0..1,0" rel="stylesheet" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div id="loading" class="loading-screen">
+      <div class="loading-mark"><span class="material-symbols-outlined">cell_tower</span></div>
+      <p>Loading verified optical telemetry…</p>
+    </div>
+
+    <aside class="sidebar" aria-label="Primary navigation">
+      <div class="brand">
+        <span class="material-symbols-outlined brand-icon">cell_tower</span>
+        <span>PTIT<br />OTMS</span>
+      </div>
+      <nav id="side-nav" class="side-nav">
+        <button class="nav-item active" data-view="overview" type="button"><span class="material-symbols-outlined">monitoring</span><small>Live</small></button>
+        <button class="nav-item" data-view="devices" type="button"><span class="material-symbols-outlined">router</span><small>Devices</small></button>
+        <button class="nav-item" data-view="alerts" type="button"><span class="material-symbols-outlined">notifications_active</span><small>Alerts</small><i id="alert-dot"></i></button>
+        <button class="nav-item" data-view="analytics" type="button"><span class="material-symbols-outlined">query_stats</span><small>Analytics</small></button>
+      </nav>
+      <div class="sidebar-foot"><span class="material-symbols-outlined">settings</span><span class="material-symbols-outlined">help_center</span></div>
+    </aside>
+
+    <div class="app-shell">
+      <header class="topbar">
+        <div class="title-block">
+          <button id="mobile-menu" class="icon-button mobile-menu" type="button" aria-label="Open navigation"><span class="material-symbols-outlined">menu</span></button>
+          <div><h1>PTIT NOC <b>|</b> OTMS</h1><p>G.709-aware optical transport monitoring</p></div>
+        </div>
+        <div class="top-actions">
+          <label class="search-box"><span class="material-symbols-outlined">search</span><input id="global-search" type="search" placeholder="Search device, channel, frequency…" autocomplete="off" /></label>
+          <button class="icon-button" type="button" aria-label="Data status"><span class="material-symbols-outlined">database</span></button>
+          <button class="icon-button notification-button" type="button" aria-label="Alerts"><span class="material-symbols-outlined">notifications</span><i></i></button>
+          <div class="operator-badge" title="Monitoring dashboard"><span class="material-symbols-outlined">network_manage</span></div>
+        </div>
+      </header>
+
+      <main>
+        <section id="view-overview" class="view active" aria-labelledby="overview-heading">
+          <div class="page-heading"><div><p class="eyebrow">LIVE VIEW</p><h2 id="overview-heading">Transport health overview</h2></div><div class="dataset-window"><span class="status-pip normal"></span><span id="dataset-window">Dataset ready</span></div></div>
+          <div id="metric-grid" class="metric-grid"></div>
+
+          <div class="dashboard-grid">
+            <article class="panel correlation-panel">
+              <div class="panel-head"><div><p class="eyebrow">CORRELATION VIEW</p><h3>G.709 health domains</h3></div><span class="panel-note">Derived from KPI outputs</span></div>
+              <div id="domain-map" class="domain-map"></div>
+              <div class="legend"><span><i class="status-pip normal"></i>Normal</span><span><i class="status-pip warning"></i>Warning</span><span><i class="status-pip critical"></i>Critical</span></div>
+            </article>
+
+            <article class="panel status-panel">
+              <div class="panel-head"><div><p class="eyebrow">RISK PROFILE</p><h3>Health distribution</h3></div></div>
+              <div id="status-bars" class="status-bars"></div>
+            </article>
+
+            <article class="panel priority-panel">
+              <div class="panel-head"><div><p class="eyebrow">PRIORITY QUEUE</p><h3>Highest-risk objects</h3></div><button class="text-button" data-go="alerts" type="button">View all</button></div>
+              <div class="table-wrap compact"><table><thead><tr><th>Priority</th><th>Object</th><th>Source</th><th>Risk</th><th>Issue</th></tr></thead><tbody id="priority-rows"></tbody></table></div>
+            </article>
+
+            <article class="panel telemetry-panel">
+              <div class="panel-head"><div><p class="eyebrow">OPTICAL PERFORMANCE</p><h3>Key telemetry</h3></div></div>
+              <div id="telemetry-list" class="telemetry-list"></div>
+            </article>
+          </div>
+        </section>
+
+        <section id="view-devices" class="view" aria-labelledby="devices-heading">
+          <div class="page-heading"><div><p class="eyebrow">INVENTORY</p><h2 id="devices-heading">Device health</h2></div><div class="filter-row" data-filter-target="device-table"><button class="filter active" data-status="All">All</button><button class="filter" data-status="Critical">Critical</button><button class="filter" data-status="Warning">Warning</button><button class="filter" data-status="Normal">Normal</button></div></div>
+          <article class="panel full-panel"><div class="table-wrap"><table><thead><tr><th>Device</th><th>Status</th><th>Priority</th><th>Risk score</th><th>OCH channels</th><th>EDFA</th><th>Recommended check</th></tr></thead><tbody id="device-table"></tbody></table></div></article>
+        </section>
+
+        <section id="view-alerts" class="view" aria-labelledby="alerts-heading">
+          <div class="page-heading"><div><p class="eyebrow">PRIORITY QUEUE</p><h2 id="alerts-heading">High-risk recommendations</h2></div><div class="filter-row" data-filter-target="alert-table"><button class="filter active" data-status="All">All</button><button class="filter" data-status="P1">P1</button><button class="filter" data-status="P2">P2</button></div></div>
+          <article class="panel full-panel"><div class="table-wrap"><table><thead><tr><th>Priority</th><th>Status</th><th>Source</th><th>Object</th><th>Risk</th><th>Issue category</th><th>Recommended check</th></tr></thead><tbody id="alert-table"></tbody></table></div></article>
+        </section>
+
+        <section id="view-analytics" class="view" aria-labelledby="analytics-heading">
+          <div class="page-heading"><div><p class="eyebrow">ANALYTICS</p><h2 id="analytics-heading">Optical KPI analysis</h2></div><div class="analytics-tabs"><button class="analytics-tab active" data-dataset="ber">Pre-FEC BER</button><button class="analytics-tab" data-dataset="power">OCH Power</button><button class="analytics-tab" data-dataset="edfa">EDFA</button><button class="analytics-tab" data-dataset="frequency">Frequency</button></div></div>
+          <div id="analytics-summary" class="metric-grid analytics-metrics"></div>
+          <article class="panel full-panel"><div class="panel-head"><div><p class="eyebrow">KPI RECORDS</p><h3 id="analytics-table-title">Pre-FEC BER channels</h3></div></div><div class="table-wrap"><table><thead id="analytics-head"></thead><tbody id="analytics-body"></tbody></table></div></article>
+        </section>
+      </main>
+
+      <footer><span>PTIT OTMS · Public Alibaba optical transport telemetry</span><span id="record-note">Loading records…</span></footer>
+    </div>
+
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+    <script src="/app.js" defer></script>
+  </body>
+</html>
