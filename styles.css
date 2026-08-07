@@ -48,6 +48,10 @@ button { color: inherit; }
 .title-block h1 b { color: var(--red); }
 .title-block p { margin: 3px 0 0; color: var(--muted); font-size: 11px; white-space: nowrap; }
 .top-actions { display: flex; align-items: center; gap: 8px; }
+.language-toggle { height: 38px; display: inline-flex; align-items: center; gap: 7px; padding: 0 10px; border: 1px solid #4b3538; background: #171212; color: #806f70; font: 700 10px "JetBrains Mono", monospace; cursor: pointer; }
+.language-toggle:hover { border-color: #80505a; }
+.language-toggle span.active { color: #ffc3cb; }
+.language-toggle i { width: 1px; height: 14px; background: #4b3538; }
 .search-box { width: min(360px, 30vw); height: 38px; display: flex; align-items: center; gap: 8px; padding: 0 11px; background: #171717; border: 1px solid #414141; }
 .search-box:focus-within { border-color: #a34a58; }
 .search-box span { color: #bcb0b0; font-size: 20px; }
@@ -74,6 +78,7 @@ main { padding: 24px; }
 .metric-value { margin-top: 8px; font: 600 30px "JetBrains Mono", monospace; letter-spacing: -.04em; }
 .metric-sub { margin-top: 5px; color: var(--muted); font-size: 11px; }
 .metric-icon { flex: 0 0 auto; width: 46px; height: 46px; display: grid; place-items: center; border: 1px solid currentColor; color: var(--green); }
+.metric-glyph { max-width: 100%; overflow: hidden; color: currentColor; font: 700 11px "JetBrains Mono", monospace; letter-spacing: -.02em; white-space: nowrap; }
 .metric-card.critical .metric-icon, .metric-card.critical .metric-value { color: #ff4969; }
 .metric-card.warning .metric-icon { color: var(--amber); }
 
